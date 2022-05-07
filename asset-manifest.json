@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/static/js/main.77eb831a.js",
-    "static/js/787.10752299.chunk.js": "/static/js/787.10752299.chunk.js",
-    "static/media/tee.png": "/static/media/tee.432e6ed2a78dc3d99e29.png",
-    "static/media/hat.jpg": "/static/media/hat.4bcf2ce535bc1ec0a9c7.jpg",
-    "static/media/shoes.jpg": "/static/media/shoes.d739faa7d8335c94bd1e.jpg",
-    "static/media/winter.jpg": "/static/media/winter.7fc112ae483ec5c21eb1.jpg",
-    "static/media/sunglasses.jpg": "/static/media/sunglasses.72fc86810049233cb420.jpg",
-    "static/media/bag.jpg": "/static/media/bag.ee06b8af4efc97f4b693.jpg",
-    "static/media/perfume.jpg": "/static/media/perfume.776ca8f86b34dddb3c73.jpg",
-    "static/media/summer.jpg": "/static/media/summer.49c0959fc67556d15301.jpg",
-    "index.html": "/index.html",
-    "main.77eb831a.js.map": "/static/js/main.77eb831a.js.map",
-    "787.10752299.chunk.js.map": "/static/js/787.10752299.chunk.js.map"
+    "main.js": "/ecommerce-website/static/js/main.b9d0b65f.js",
+    "static/js/787.10752299.chunk.js": "/ecommerce-website/static/js/787.10752299.chunk.js",
+    "static/media/tee.png": "/ecommerce-website/static/media/tee.432e6ed2a78dc3d99e29.png",
+    "static/media/hat.jpg": "/ecommerce-website/static/media/hat.4bcf2ce535bc1ec0a9c7.jpg",
+    "static/media/shoes.jpg": "/ecommerce-website/static/media/shoes.d739faa7d8335c94bd1e.jpg",
+    "static/media/winter.jpg": "/ecommerce-website/static/media/winter.7fc112ae483ec5c21eb1.jpg",
+    "static/media/sunglasses.jpg": "/ecommerce-website/static/media/sunglasses.72fc86810049233cb420.jpg",
+    "static/media/bag.jpg": "/ecommerce-website/static/media/bag.ee06b8af4efc97f4b693.jpg",
+    "static/media/perfume.jpg": "/ecommerce-website/static/media/perfume.776ca8f86b34dddb3c73.jpg",
+    "static/media/summer.jpg": "/ecommerce-website/static/media/summer.49c0959fc67556d15301.jpg",
+    "index.html": "/ecommerce-website/index.html",
+    "main.b9d0b65f.js.map": "/ecommerce-website/static/js/main.b9d0b65f.js.map",
+    "787.10752299.chunk.js.map": "/ecommerce-website/static/js/787.10752299.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.77eb831a.js"
+    "static/js/main.b9d0b65f.js"
   ]
 }
