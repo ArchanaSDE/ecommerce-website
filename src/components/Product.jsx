@@ -10,15 +10,22 @@ const Info = styled.div `
     opacity: 0;
 `;
 
-const Container = styled.div `
+const Container = styled.div`
     display: flex;
+    flex-direction: column;
+    background-color: rgb(208, 224, 226);
+    align-items: center;
     margin: 5px;
-    min-height: 280px;
+`;
+
+const ImageContainer = styled.div `
+    flex: 1;
+    display: flex;
+    min-height: 250px;
     min-width: 300px;
     flex:1;
     align-items: center;
     justify-content: center;
-    background-color: rgb(208, 224, 226);
     position: relative;
     &:hover ${Info}{
         opacity:1;
@@ -31,6 +38,11 @@ const Image = styled.img `
     align-items: center;
     z-index:2;
     position: absolute;
+`;
+
+const Category = styled.p `
+    flex: 1;
+    font-size: 30px;
 `;
 
 const Icon = styled.div `
@@ -52,18 +64,21 @@ const Icon = styled.div `
 const Product = ({item}) => {
     return (
         <Container>
-            <Image src={item.img}/>
-            <Info>
-                <Icon>
-                    <FavoriteBorder/>
-                </Icon>
-                <Icon>
-                    <Search/>
-                </Icon>
-                <Icon>
-                    <ShoppingCartOutlined/>
-                </Icon>
-            </Info>
+            <ImageContainer>
+                <Image src={item.img}/>
+                <Info>
+                    <Icon>
+                        <FavoriteBorder/>
+                    </Icon>
+                    <Icon>
+                        <Search/>
+                    </Icon>
+                    <Icon>
+                        <ShoppingCartOutlined/>
+                    </Icon>
+                </Info>
+            </ImageContainer>
+            <Category>{item.category}</Category>
         </Container>
     )
 }

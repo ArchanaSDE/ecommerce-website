@@ -3,6 +3,7 @@ import styled from "styled-components"
 const Container = styled.div `
 height: 30px;
 background-color: #df256c;
+background-image: linear-gradient(to right, #df256c , gold);
 color: white;
 display: flex;
 font-size: 14px;

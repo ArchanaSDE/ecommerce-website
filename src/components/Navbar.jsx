@@ -42,6 +42,7 @@ const Center = styled.div`
 
 const Logo = styled.h1`
   fontweight: bold;
+  color: black;
 `;
 
 const Right = styled.div`
@@ -64,13 +65,13 @@ const Navbar = () => {
     <Container>
       <Wrapper>
         <Left>
-          <SearchContainer>
+          {/*<SearchContainer>
             <Search style = {{color: "grey", fontSize: 16}}/>
             <Input placeholder = "Search for Products"/>
-          </SearchContainer>
+          </SearchContainer>*/}
         </Left>
         <Center>
-          <Logo>EKART</Logo>
+          <Logo>CoolStuff.com</Logo>
         </Center>
         <Right>
           <MenuItem onClick = {()=>{window.location.href='https://archanasde.github.io/ecommerce-website/#/register';}}> Register </MenuItem>

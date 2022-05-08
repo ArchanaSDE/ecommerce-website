@@ -5,7 +5,7 @@ import {SliderItems} from "../data";
 
 const Container = styled.div`
   width: 100%;
-  height: 100%;
+  height: 60%;
   display: flex;
   position: relative;
   margin-top: 10px;
@@ -39,7 +39,7 @@ const Wrapper = styled.div`
 
 const Slide = styled.div`
   width: 100vw;
-  height: 80vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   background-color: ${(props) => props.bg};
@@ -62,12 +62,14 @@ const InfoContainer = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 70px;
+  font-size: 50px;
 `;
+
 const Description = styled.p`
   font-size: 30px;
   letter-spacing: 3px;
 `;
+
 const Button = styled.button`
   font-size: 20px;
   padding: 5px;
@@ -102,7 +104,7 @@ const Slider = () => {
           <InfoContainer>
             <Title>{item.title}</Title>
             <Description>{item.description}</Description>
-            <Button>SHOW NOW</Button>
+            {/*<Button>SHOW NOW</Button>*/}
           </InfoContainer>
         </Slide>
         </Wrapper>

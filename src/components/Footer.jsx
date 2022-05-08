@@ -86,7 +86,7 @@ const Footer = () => {
   return (
     <Container>
       <Left>
-        <Logo>EKART</Logo>
+        <Logo>CoolStuff.com</Logo>
         <Description>
           Get Unique Styles From Top Brands Like H&M, HRX And More. Shop Your
           Favorite Look Now. Redefine Your Style Statement With Trendy Apparel,
@@ -126,7 +126,7 @@ const Footer = () => {
           <Phone /> +1 25362283
         </ContactItem>
         <ContactItem>
-          <Email /> ekart@gmail.com
+          <Email /> let'scatchup@CoolStuff.com
         </ContactItem>
       </Right>
     </Container>

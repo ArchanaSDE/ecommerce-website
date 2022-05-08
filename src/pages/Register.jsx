@@ -51,6 +51,11 @@ font-weight: bold;
 `;
 
 const Register = () => {
+    const handleSubmit = (event)=>{
+        event.preventDefault();
+        window.location.href = "https://archanasde.github.io/ecommerce-website/";
+    }
+
     return (
         <Container>
             <Wrapper>
@@ -66,7 +71,7 @@ const Register = () => {
                         By creating an account, I consent to the processing of my personal
                         data in accordance with the <span style= {{color:"#df256c", fontWeight: "bold"}}>PRIVACY POLICY</span>
                         </Agreement>
-                        <CreateButton>CREATE</CreateButton>
+                        <CreateButton onClick = {e=>handleSubmit(e)}>CREATE</CreateButton>
                     </Form>
             </Wrapper>
         </Container>

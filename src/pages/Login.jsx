@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import { useRef } from 'react';
 
 const Container = styled.div `
 width: 100vw;
@@ -50,16 +51,23 @@ const Link = styled.a `
 `;
 
 const Login = () => {
+  const userName = useRef(null);
+
+  const handleSubmit = (event)=>{
+    event.preventDefault();
+    window.location.href = "https://archanasde.github.io/ecommerce-website/";
+  }
+
     return (
         <Container>
             <Wrapper>
                 <Title>SIGN IN</Title>
                     <Form>
-                        <Input placeholder="User Name"/>
+                        <Input ref={userName} placeholder="User Name"/>
                         <Input placeholder="Password"/>
-                        <CreateButton>LOGIN</CreateButton>
+                        <CreateButton onClick = {e=>handleSubmit(e)}>LOGIN</CreateButton>
                         <Link>FORGOT PASSWORD</Link>
-                        <Link onClick = {()=>{window.location.href = "http://localhost:3000/register"}}>CREATE A NEW ACCOUNT</Link>
+                        <Link onClick = {()=>{window.location.href = "https://archanasde.github.io/ecommerce-website/#/register"}}>CREATE A NEW ACCOUNT</Link>
                     </Form>
             </Wrapper>
         </Container>
