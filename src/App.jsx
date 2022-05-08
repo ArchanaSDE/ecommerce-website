@@ -3,7 +3,7 @@ import Home from './pages/Home'
 import ProductsList from './pages/ProductsList'
 import Register from './pages/Register'
 import Login from './pages/Login'
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom'
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'
 
 const App = () => {
   return (
