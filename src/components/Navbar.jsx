@@ -73,8 +73,8 @@ const Navbar = () => {
           <Logo>EKART</Logo>
         </Center>
         <Right>
-          <MenuItem onClick = {()=>{window.location.href='https://archanasde.github.io/ecommerce-website/register';}}> Register </MenuItem>
-          <MenuItem onClick = {()=>{window.location.href='https://archanasde.github.io/ecommerce-website/login';}}> Login </MenuItem>
+          <MenuItem onClick = {()=>{window.location.href='https://archanasde.github.io/ecommerce-website/#/register';}}> Register </MenuItem>
+          <MenuItem onClick = {()=>{window.location.href='https://archanasde.github.io/ecommerce-website/#/login';}}> Login </MenuItem>
           <MenuItem>
             <Badge badgeContent={4} color="primary">
                 <ShoppingCartOutlined/>
